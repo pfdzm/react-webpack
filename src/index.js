@@ -1,7 +1,8 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom/client";
+import { App } from "./App";
 
-ReactDOM.createRoot(document.getElementById("app")).render(<h1>Hello webpack</h1>);
+ReactDOM.createRoot(document.getElementById("app")).render(<App />);
 
 if (module.hot) {
   module.hot.accept();
